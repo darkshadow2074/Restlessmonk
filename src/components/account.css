@@ -1,0 +1,254 @@
+.accountSection{
+    margin: 2rem auto 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__section{
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px -1px 6px #111111, -2px -5px 6px #404040;
+    border-radius: 30px;
+    width: 650px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.input__heading{
+    margin: 1rem auto;
+    font: normal normal bold 26px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.form__input{
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    font: normal normal normal 22px/27px Montserrat;
+    letter-spacing: 0px;
+    background:transparent linear-gradient(280deg, #1A1D21 0%, #262627 100%) 0% 0% no-repeat padding-box;
+    width: 450px;
+    min-width: 150px;
+    border-radius: 44px;
+    border: 8px solid #191818;
+    outline: none;
+    box-shadow: inset 2px 2px 5px #111111,inset -5px -5px 10px #404040;
+}
+
+.amount{
+    margin-top: 2rem;
+    font: normal normal 600 60px Montserrat;
+    color: white;
+    text-align: center;
+}
+
+.detail__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem;
+    text-align: left;
+}
+
+.detail{
+    font: normal normal 500 20px Montserrat;
+    color: #FFB027;
+}
+
+.paySection,.enterpriseSection{
+    color: #707070;
+    margin-top: 1rem;
+}
+
+.paySection__heading,.enterprise__heading{
+    font: normal normal 600 18px Montserrat;
+}
+
+.paySection__content,.enterprise__content{
+    margin-top: 6px;
+    font: normal normal 500 16px Montserrat;
+}
+
+.contact-us,.learnMore{
+    margin-top: 0.5rem;
+    color: #FFB027 ;
+    font: normal normal 500 16px Montserrat;
+}
+@media all and (min-width:320px) {
+    .accountSection{
+        flex-direction: column;
+        padding: 0rem;
+    }
+    .input__section{
+        padding: 1rem;
+        width: 250px;
+
+    }
+    .input__heading{
+        margin: 1rem auto;
+        font: normal normal bold 16px Montserrat;
+    }
+    .form__input{
+        padding: 0.6rem;
+        margin: inherit;
+        font: normal normal normal 14px Montserrat;
+        width: 230px;
+        border: 6px solid #191818;
+    }
+    .amount{
+        margin-top: 1.4rem;
+        font: normal normal 600 30px Montserrat;
+    }
+    .detail{
+        font: normal normal 500 16px Montserrat;
+        color: #FFB027;
+    }
+    .paySection__heading,.enterprise__heading{
+        font: normal normal 600 16px Montserrat;
+    }
+    
+    .paySection__content,.enterprise__content{
+        margin-top: 6px;
+        font: normal normal 500 14px Montserrat;
+    }
+    .contact-us,.learnMore{
+        font: normal normal 500 14px Montserrat;
+    }
+}
+
+@media all and (min-width:425px) {
+    .accountSection{
+        flex-direction: column;
+        padding: 0rem;
+    }
+    .input__section{
+        padding: 1rem;
+        width: 280px;
+
+    }
+    .input__heading{
+        margin: 1rem auto;
+        font: normal normal bold 18px Montserrat;
+    }
+    .form__input{
+        padding: 0.6rem;
+        margin: inherit;
+        font: normal normal normal 16px Montserrat;
+        width: 250px;
+        border: 6px solid #191818;
+    }
+    .amount{
+        margin-top: 1.4rem;
+        font: normal normal 600 40px Montserrat;
+    }
+    .detail{
+        font: normal normal 500 18px Montserrat;
+        color: #FFB027;
+    }
+    .paySection__heading,.enterprise__heading{
+        font: normal normal 600 18px Montserrat;
+    }
+    
+    .paySection__content,.enterprise__content{
+        margin-top: 6px;
+        font: normal normal 500 16px Montserrat;
+    }
+    .contact-us,.learnMore{
+        font: normal normal 500 16px Montserrat;
+    }
+}
+
+@media all and (min-width:768px) {
+    .accountSection{
+        flex-direction:row;
+        padding: 2rem;
+    }
+    .input__section{
+        padding: 1rem;
+        width: 450px;
+
+    }
+    .input__heading{
+        margin: 1rem auto;
+        font: normal normal bold 18px Montserrat;
+    }
+    .form__input{
+        padding: 1rem;
+        margin: 2rem auto;
+        font: normal normal normal 16px Montserrat;
+        width: 340px;
+        border: 6px solid #191818;
+    }
+    .amount{
+        margin-top: 3rem;
+        font: normal normal 600 40px Montserrat;
+    }
+    .detail__section{
+        align-items:flex-start ;
+        padding: 1.4rem;
+    }
+    .detail{
+        font: normal normal 500 18px Montserrat;
+        color: #FFB027;
+    }
+    .contact-us,.learnMore{
+        margin-top: 0.5rem;
+        color: #FFB027 ;
+        font: normal normal 500 14px Montserrat;
+    }
+    .paySection__heading,.enterprise__heading{
+        font: normal normal 600 16px Montserrat;
+    }
+    
+    .paySection__content,.enterprise__content{
+        margin-top: 6px;
+        font: normal normal 500 14px Montserrat;
+    }
+
+
+}
+
+@media all and (min-width:1024px) {
+    .input__section{
+        padding: 1rem;
+        width: 650px;
+    }
+    .input__heading{
+        margin: 1rem auto;
+        font: normal normal bold 26px Montserrat;
+    }
+    .form__input{
+        padding: 1rem;
+        margin: 2rem auto;
+        font: normal normal normal 16px Montserrat;
+        width: 450px;
+        border: 6px solid #191818;
+    }
+    .amount{
+        margin-top: 3rem;
+        font: normal normal 600 60px Montserrat;
+    }
+    .detail{
+        font: normal normal 500 18px Montserrat;
+        color: #FFB027;
+    }
+    .paySection__heading,.enterprise__heading{
+        font: normal normal 600 18px Montserrat;
+    }
+    
+    .paySection__content,.enterprise__content{
+        margin-top: 6px;
+        font: normal normal 500 16px Montserrat;
+    }
+    .contact-us,.learnMore{
+        font: normal normal 500 16px Montserrat;
+    }
+}

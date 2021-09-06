@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.headSection{
+    padding:2rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headline{
+  text-align: center;
+  font: normal normal 600 44px Montserrat;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.tagline__section{
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.tagline{
+   text-align: center;
+   font: normal normal 500 28px Montserrat;
+   color: #707070;
+}
+
+.btn__primary{
+    padding: 1.7rem;
+    background: transparent linear-gradient(316deg, #1A1D21 0%, #262627 100%) 0% 0% no-repeat padding-box;
+    color: #ffb027;
+    border: none;
+    outline: none;
+    border-radius: 44px ;
+    box-shadow:   2px -1px 6px #111111, -2px -5px 6px #404040;
+    width: 240px;
+    min-width: 120px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;  
+}
+
+
+@media all and (min-width:320px) {
+    .headline{
+        font-size: 20px;
+    }
+    .tagline{
+      font-size: 14px;
+    }
+    .tagline__section{
+        margin-bottom:1rem ;
+    }
+    .btn__primary{
+        padding: 1.2rem;
+        width: 136px;
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:425px) {
+    .headline{
+        font-size: 26px;
+    }
+    .tagline{
+      font-size: 18px;
+    }
+    .tagline__section{
+        margin-bottom:1.5rem ;
+    }
+    .btn__primary{
+        padding: 1.4rem;
+        width: 156px;
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width:768px) {
+    .headline{
+        font-size: 32px;
+    }
+    .tagline{
+      font-size: 24px;
+    }
+    .tagline__section{
+        margin-bottom:1.8rem ;
+    }
+    .btn__primary{
+        padding: 1.4rem;
+        width: 240px;
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width:1024px) {
+    .headline{
+        font-size: 36px;
+    }
+    .tagline{
+      font-size: 28px;
+    }
+    .tagline__section{
+        margin-bottom:1.8rem ;
+    }
+    .btn__primary{
+        padding: 1.4rem;
+        width: 260px;
+        font-size: 26px;
+    }
+}
